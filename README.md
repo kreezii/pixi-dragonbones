@@ -6,5 +6,6 @@ npm i pixi-dragonbones
 ``
 ```javascript
 import * as PIXI from 'pixi.js';
-import 'dragonBones' from 'pixi-dragonbones';
+import dragonBones from 'pixi-dragonbones';
+const dbfactory=dragonBones.PixiFactory.factory;
 ```
